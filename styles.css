@@ -1,0 +1,131 @@
+:root {
+    --color-dark-iron: #434343;
+    --color-brass: #b69e5d;
+    --color-copper: #b87333;
+    --color-forest-green: #354b35;
+    --color-red-flower: #a83333;
+    --color-bright-gold: #ffd700;
+    --color-warm-white: #f0e0c5;
+    --color-background-green: #020802df;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: var(--color-background-green);
+    padding: 0 10px;
+}
+
+body {
+    background-image: url(./assets/secret-3120483.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+
+}
+
+.content-box{
+    padding: 0 10%;
+
+}
+
+.section-heading {
+    border-bottom: 2px solid var(--color-copper);
+}
+.section-box, h1{
+    background-color: var(--color-background-green);
+    padding: 5px;
+    border-radius: 1%;
+}
+.navbar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+*{
+    box-sizing: border-box;
+    color: var(--color-warm-white);
+}
+
+.titleBlock{
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+button{
+ 
+    border-radius: 10%;
+    background-color: var(--color-dark-iron);
+    box-shadow: 1px -1px 10px var(--color-copper);
+}
+
+a {
+    color: var(--color-red-flower);
+    text-decoration: none;
+    text-shadow: #a83333;
+}
+
+.title1, .title2, .title3 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke: var(--color-bright-gold);
+    text-shadow: 1px 1px 10px  #ffd700;
+}
+
+.title1, .title2 {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title1 {
+    font-size: 4rem;
+
+}
+.title3 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.sawarabi-gothic-regular {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .unifrakturmaguntia-regular {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+hr {
+    border-color: var(--color-copper)
+}
+  
+.message-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+textarea{
+    display: block;
+    color: var(--color-red-flower);
+}
+
+.submit-button{
+    display: block;
+    margin: auto;
+    color: var(--color-red-flower);
+}
